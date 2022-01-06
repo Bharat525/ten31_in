@@ -21,11 +21,14 @@ footer{
 
 .product-banner{
     /* padding: 20px 0px 20px; */
-    
+        background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     background-color: rgb(180, 180, 180);
-
-    padding-bottom: 2rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
     margin-top: 4rem;
+    background-size: cover;
 }
 
 
@@ -57,7 +60,7 @@ footer{
 .product-banner h2{
     /* padding-top: 1rem; */
     font-size: 2.4rem;
-    color: white;
+    /* color: white; */
     letter-spacing: 2px;
 
     font-weight: 600;
@@ -82,20 +85,21 @@ footer{
 
 .parent-div{
   display: flex;
-  width: 70%;
+  width: 100%;
   margin: auto;
   justify-content: space-between;
+  text-align: center;
 
 }
 
 .parent-div p{
-padding-right: 30%;
+/* padding-right: 30%; */
     font-size: 16px;
     line-height: 2;
     letter-spacing: 2px;
 
-    text-align: justify;
-      color: white;
+    /* text-align: justify; */
+      /* color: white; */
 }
 
 .parent-div .productBanner-img{
@@ -110,7 +114,7 @@ padding-right: 30%;
 
 .product-div .item{
     width: 200px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     text-align: center;
     transition: 0.5s ease;
     cursor: pointer;
