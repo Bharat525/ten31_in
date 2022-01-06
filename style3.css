@@ -151,7 +151,7 @@ li a{
     top: 6rem;
        right: 0;
     z-index: 2;
-    background: #FF5700;
+    background: #FFF1DE;
     position: absolute;
     display: block !important;
     width: 100%;
@@ -162,6 +162,10 @@ li a{
   
 }
 
+
+.mobile a{
+    color: black !important;
+}
 
 
 
@@ -203,10 +207,10 @@ li a{
 }
 
 
-
+/* 
 li .dropdown-toggle{
     color: white !important;
-}
+} */
 
 
 .question {
