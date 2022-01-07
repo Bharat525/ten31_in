@@ -24,7 +24,7 @@ article{
     margin: auto;
     color: rgb(36, 35, 35);
     line-height: 2.4rem;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     text-align: justify;
     font-size: 16px;
 }
@@ -59,10 +59,11 @@ article img{
 
 }
 
+
 .mission-parent .item{
      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     /* border: 1px solid black; */
-    width: 350px;
+    width: 400px;
     object-fit: cover;
     text-align: justify;
     padding-top: 20px;
@@ -71,6 +72,15 @@ article img{
     padding-right: 20px;
     background-color: coral;
     
+
+
+}
+
+
+.mission-parent .item:nth-child(2){
+    border: 20px solid orange;
+    background-color: transparent;
+
 
 
 }
@@ -91,6 +101,7 @@ article img{
     padding-left: 10px;
     color: white;
     margin-bottom: 10rem;
+    font-size: 1.2rem;
 
 }
 
@@ -110,6 +121,7 @@ article img{
     /* padding-top: 4rem; */
     padding-bottom: 4rem;
     /* height: 80vh; */
+        background-color: #6DB3F2;
 }
 
 .parent-about h3{
@@ -125,7 +137,7 @@ article img{
 
 
 .item-about{
-    height: 150px;
+    /* height: 150px; */
      background-size: contain;
     width: 100%;
     background-repeat: no-repeat;
@@ -133,16 +145,20 @@ article img{
     display: flex;
     align-items: center;
     margin-top: 4rem;
+    background-size: 400px;
 
 
 }
 
 .item-about p{
     font-size: 22px;
-    line-height: 4rem;
+    line-height: 2.4rem;
     letter-spacing: 1px;
     width: 60%;
 text-align: justify;
+color: white;
+padding-right: 10px;
+padding-left: 10px;
 }
 
 .vdio-container h2{
@@ -156,6 +172,10 @@ text-align: justify;
     .profile{
         display: block !important;
         width: 90%;
+    }
+
+    .item-about{
+        height: auto !important;
     }
 
     .item-about p{
@@ -200,6 +220,7 @@ text-align: justify;
         width: auto !important;
         margin-top: 14px;
         font-size: 18px;
+        line-height: 2;
     } 
 
     .bg-img-about{
